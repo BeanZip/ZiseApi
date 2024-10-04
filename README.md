@@ -9,7 +9,7 @@ Python wouldn't work on my Laptop So I had to "Improvise"
 
 ## Where Can I learn this
 
-You can learn how to use the Spring API <a href="url"> Here!</a> It is very cool and fun to experiment with.
+You can learn how to use the Spring API <a href="https://spring.io/guides/gs/rest-service#scratch"> Here!</a> It is very cool and fun to experiment with.
 
 ## I initialized it now where do I go.
 Simple You Press <a href="http://localhost:8080/app"> This </a> Or "http://localhost:8080/app" to initalize it.
