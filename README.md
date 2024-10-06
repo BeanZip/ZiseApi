@@ -6,7 +6,6 @@ This is a Web Api Designed for My Computer Science Club at CAIT Using Spring Fra
 ## Purpose
 
 Python wouldn't work on my Laptop So I had to "Improvise"
-
 ## Where Can I learn this
 
 You can learn how to use the Spring API <a href="https://spring.io/guides/gs/rest-service#scratch"> Here!</a> It is very cool and fun to experiment with.

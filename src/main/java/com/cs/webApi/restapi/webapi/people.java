@@ -2,8 +2,8 @@ package com.cs.webApi.restapi.webapi;
 
 import org.jetbrains.annotations.NotNull;
 
-public class people extends VFP implements peopleinterf{
-    public people(Integer id, String firstName, String firstName1, String lastName, Integer age, Boolean employed) {
+public class People extends VFP implements PeopleInterface {
+    public People(Integer id, String firstName, String firstName1, String lastName, Integer age, Boolean employed) {
         super(id, firstName, lastName, age, employed);
     }
 

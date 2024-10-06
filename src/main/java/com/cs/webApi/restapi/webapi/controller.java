@@ -1,21 +1,11 @@
 package com.cs.webApi.restapi.webapi;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
 import java.net.URI;
-import org.springframework.beans
-        .factory.annotation.Autowired;
-import org.springframework.http
-        .ResponseEntity;
-import org.springframework.web.bind
-        .annotation.GetMapping;
-import org.springframework.web.bind
-        .annotation.PostMapping;
-import org.springframework.web.bind
-        .annotation.RequestBody;
-import org.springframework.web.bind
-        .annotation.RequestMapping;
-import org.springframework.web.bind
-        .annotation.RestController;
-import org.springframework.web.servlet
-        .support.ServletUriComponentsBuilder;
 // Import the above-defined classes
 // to use the properties of those
 // classes
@@ -23,10 +13,10 @@ import org.springframework.web.servlet
 // Creating the REST controller
 @RestController
 @RequestMapping(path = "/webapi")
-public class controller {
+public class Controller {
 
     @Autowired
-    private peopledao peopledao;
+    private PeopleDao peopledao;
 
     // Implementing a GET method
     // to get the list of all
@@ -35,7 +25,7 @@ public class controller {
             path = "/",
             produces = "application/json")
 
-    public populus getpopulus()
+    public Populus getpopulus()
     {
 
         return peopledao.getAllEPeople();
@@ -51,7 +41,7 @@ public class controller {
             produces = "application/json")
 
     public ResponseEntity<Object> addEmployee(
-            @RequestBody people person)
+            @RequestBody People person)
     {
 
         // Creating an ID of an employee

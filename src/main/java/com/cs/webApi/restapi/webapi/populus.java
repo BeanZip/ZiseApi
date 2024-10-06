@@ -3,17 +3,17 @@ package com.cs.webApi.restapi.webapi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class populus {
+public class Populus {
 
-    private List<people> peopleList;
-    public List<people> getPeopleList(){
+    private List<People> peopleList;
+    public List<People> getPeopleList(){
 
         if (peopleList == null){
             peopleList = new ArrayList<>();
         }
         return peopleList;
     }
-    public void setPeopleList(List<people> peopleList) {
+    public void setPeopleList(List<People> peopleList) {
         this.peopleList = peopleList;
     }
 }
