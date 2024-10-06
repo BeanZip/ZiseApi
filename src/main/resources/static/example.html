@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples</title>
+</head>
+<link rel="stylesheet" href="examples.css">
+<body>
+<h1>Hello World</h1>
+<p>The Spring Module can also read html file if you put it into the static folder, pretty neat right</p>
+<button id="soundbutton">PlaySound</button>
+<audio id="myAudio">
+  <source src="honk.mp3" type="audio/mpeg">
+  Damn Your Browser is deaf
+</audio>
+<script>
+  const soundbutton = document.getElementById("soundbutton");
+  const myAudio = document.getElementById("myAudio");
+
+  soundbutton.addEventListener("click", () =>{
+    myAudio.play()
+  })
+</script>
+</body>
+</html>
