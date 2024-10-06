@@ -16,3 +16,27 @@ There is also a secret html file if you can activate it ;)
 
 ## What is the code comprised of
 This Code uses some Html, but uses Kotlin/Java To Activate it using the SpringBoot Framework after 5 hours of doing thing stuff.
+
+```java
+import org.springframework.web.bind.annotation.RestController;
+
+/*
+        Do Not Forget @RestController this allows the resapi to work
+        or something like that.
+ */
+@RestController
+public class WebApiApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(WebApiApplication.class, args);
+    }
+}
+```
+And How The Kotlin Code Works
+
+```kotlin
+// examples from PeopleDao.kt //
+
+list.peopleList.add(People(1, "John", "null", "Doe", 2, false))
+
+/* How To Add Values To The Json */
+```
